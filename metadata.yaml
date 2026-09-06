@@ -1,0 +1,5 @@
+name: matrix_plugin
+version: 1.0.0
+author: Matrix
+description: 淤积点查询插件
+module: main
