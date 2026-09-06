@@ -1,5 +1,12 @@
 name: matrix_plugin
+display_name: 终末地基质
+desc: 淤积点武器与地区查询插件。支持武器列表、单个武器详情、多武器组合优化、词条查询等功能。
+help: |
+  指令列表：
+  - /基质 武器          - 显示所有武器列表（图片）
+  - /基质 <武器名/编号> - 查询单个武器详情及推荐刷取方案
+  - /基质 <武器1,武器2> - 组合优化，寻找可同时刷取多个武器的地点和词条
+  - /基质 基础/附加/技能 - 按词条查询匹配的武器
 version: 1.0.0
-author: Matrix
-description: 淤积点查询插件
-module: main
+author: Courison
+repo: https://github.com/Courison/astrbot_plugin_matrix
